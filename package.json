@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "wrangler": "latest"
-  },
-  "scripts": {
-    "dev": "wrangler dev",
-    "ship": "wrangler deploy"
-  }
-}
