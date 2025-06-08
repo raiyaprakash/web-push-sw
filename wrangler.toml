@@ -1,4 +1,5 @@
-name = "web-push-sw"
+# wrangler.toml
+name = 'web-push-sw2'
 compatibility_date = "2025-01-01"
 
 [assets]
