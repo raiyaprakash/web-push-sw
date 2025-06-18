@@ -1,6 +1,6 @@
 const CACHE_NAME = 'asset-cache-v26',
     ASSET_REGEX = /\.(?:jpe?g|png|gif|webp|avif|svg|bmp|ico|woff2?|ttf|otf|eot)$/i,
-    PRECACHE = ['/downloads/favicon.ico', '/manifest.json'],
+    PRECACHE = ['/favicon.ico'],
     MAX_ITEMS = 500;
 async function limitCache(cache) {
     const keys = await cache.keys();
