@@ -79,9 +79,7 @@ class AutoPush {
                     this.writeInLog("registration state", "unregistered");
                     this.writeInLog("registration unregistered", reg);
                 }
-
             });
-
         }
     }
 
